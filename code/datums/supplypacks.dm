@@ -937,6 +937,18 @@ var/list/all_supply_groups = list(supply_emergency,supply_security,supply_engine
 	cost = 15
 	containername = "exotic seeds crate"
 
+/datum/supply_packs/organic/hydroponics/beekeeping_fullkit
+	name = "Beekeeping Starter Kit"
+	cost = 15
+	contains = list(/obj/structure/beebox,
+					/obj/item/honey_frame,
+					/obj/item/honey_frame,
+					/obj/item/honey_frame,
+					/obj/item/queen_bee/bought,
+					/obj/item/clothing/head/beekeeper_head,
+					/obj/item/clothing/suit/beekeeper_suit)
+	containername = "beekeeping starter kit"
+
 /datum/supply_packs/organic/vending
 	name = "Bartending Supply Crate"
 	contains = list(/obj/item/weapon/vending_refill/boozeomat,

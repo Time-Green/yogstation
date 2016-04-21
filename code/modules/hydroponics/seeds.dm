@@ -22,6 +22,7 @@
 	var/plant_type = 0				//0 = 'normal plant'; 1 = weed; 2 = shroom
 	var/rarity = 0					//How rare the plant is. Used for giving points to cargo when shipping off to Centcom.
 	var/list/mutatelist = list()	//The type of plants that this plant can mutate into.
+	var/innate_yieldmod = 1
 
 /obj/item/seeds/New(loc, parent)
 	..()

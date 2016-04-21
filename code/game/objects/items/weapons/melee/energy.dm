@@ -212,3 +212,15 @@
 
 /obj/item/weapon/melee/energy/blade/attack_self(mob/user)
 	return
+
+
+
+
+
+
+
+
+
+
+
+

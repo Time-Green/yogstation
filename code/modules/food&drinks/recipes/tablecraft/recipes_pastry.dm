@@ -267,3 +267,12 @@
 		/obj/item/weapon/reagent_containers/food/snacks/grown/bluecherries = 1
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/bluecherrycupcake
+
+/datum/table_recipe/honeybun
+	name = "Honey bun"
+	reqs = list(
+		/obj/item/weapon/reagent_containers/food/snacks/pastrybase = 1,
+		/datum/reagent/consumable/honey = 5
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/honeybun
+	category = CAT_FOOD

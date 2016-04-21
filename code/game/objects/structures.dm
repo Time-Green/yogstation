@@ -26,3 +26,4 @@
 		visible_message("<span class='danger'>[M.name] has hit [src].</span>")
 		return 1
 	return 0
+

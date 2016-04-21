@@ -12,14 +12,14 @@
 	result = "lube"
 	required_reagents = list("water" = 1, "silicon" = 1, "oxygen" = 1)
 	result_amount = 4
-	
+
 /datum/chemical_reaction/spraytan
 	name = "Spray Tan"
 	id = "spraytan"
 	result = "spraytan"
 	required_reagents = list("orangejuice" = 1, "oil" = 1)
 	result_amount = 2
-	
+
 /datum/chemical_reaction/spraytan2
 	name = "Spray Tan"
 	id = "spraytan"
@@ -353,3 +353,10 @@
 	result = "saltpetre"
 	required_reagents = list("potassium" = 1, "nitrogen" = 1, "oxygen" = 3)
 	result_amount = 3
+
+/datum/chemical_reaction/royal_bee_jelly
+	name = "royal bee jelly"
+	id = "royal_bee_jelly"
+	result = "royal_bee_jelly"
+	required_reagents = list("mutagen" = 10, "honey" = 40)
+	result_amount = 5
